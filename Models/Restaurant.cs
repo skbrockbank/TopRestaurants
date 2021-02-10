@@ -40,16 +40,16 @@ namespace TopRestaurants.Models
                 Name = "Chick-fil-a",
                 FavoriteDish = "Chicken Nuggets Kids' Meal",
                 Address = "100 N State St.",
-                Website = "chickfila.com",
+                Website = "https://www.chick-fil-a.com",
                 PhoneNumber = "5783928573"
             };
 
             Restaurant restaurant2 = new Restaurant(2)
             {
-                Name = "JCW",
+                Name = "JCW's",
                 FavoriteDish = "Guacamole Burger",
                 Address = "775 N. University Parkway",
-                Website = "jcw.com",
+                Website = "https://www.jcws.com/",
                 PhoneNumber = "4738275837"
             };
 
@@ -58,7 +58,7 @@ namespace TopRestaurants.Models
                 Name = "Sweeto Burrito",
                 FavoriteDish = "The Sweeto Burrito",
                 Address = "82 N. University Avenue",
-                Website = "sweeto.com",
+                Website = "https://sweetoburrito.com/",
                 PhoneNumber = "4738295738"
             };
 
@@ -71,9 +71,9 @@ namespace TopRestaurants.Models
 
             Restaurant restaurant5 = new Restaurant(5)
             {
-                Name = "Bajios",
+                Name = "Bajio",
                 Address = "1200 N. University Avenue",
-                Website = "bajios.com",
+                Website = "https://www.bajiogrillutah.com/",
                 PhoneNumber = "2758372938"
             };
 

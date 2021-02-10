@@ -16,7 +16,7 @@
     <ul class="list-unstyled">
         @foreach (string r in Model)
         {
-            <li>@r</li>
+            <li>@Html.Raw(r)</li>
         }
     </ul>
 </body>

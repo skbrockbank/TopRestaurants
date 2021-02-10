@@ -25,7 +25,7 @@ namespace TopRestaurants.Controllers
             foreach (Restaurant r in Restaurant.GetRestaurants())
             {
                 string? dish = r.FavoriteDish ?? "It's all tasty!";
-                restaurantList.Add($"#{r.Rank} {r.Name} \t\tFavorite Dish: {dish} \t\tAddress: {r.Address} \t\tPhone Number: {r.PhoneNumber} \t\tWebsite: {r.Website}");
+                restaurantList.Add($"#{r.Rank} {r.Name} <br>Favorite Dish: {dish} <br>Address: {r.Address} <br>Phone Number: {r.PhoneNumber} <br>Website: <a href=\'{r.Website}\'>{r.Website}</a><br>");
             }
 
             return View(restaurantList);

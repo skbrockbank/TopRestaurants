@@ -16,7 +16,8 @@ namespace TopRestaurants.Models
         public string FavoriteDish { get; set; }
 
         //Verify that phone number is in a valid format
-        [Phone]
+        [RegularExpression("(0/91)?[7-9][0-9]{9}",
+            ErrorMessage = "Please enter a valid phone number.")]
         public string PhoneNumber { get; set; }
 
         //return a list of suggestions when the method is called
